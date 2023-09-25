@@ -1,0 +1,64 @@
+h2{
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique italic;
+}
+p::content{
+    color: black;
+    text-align: center;
+    font-style: oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font:100
+}
+
+.hover-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.hover-button:hover {
+    background-color: #e74c3c;
+}
+#favorite {
+    border-radius: 10px;
+    border: 3px solid:#3498db; 
+    padding: 10px; 
+    display: inline-block;
+}
+
+.horizontal-container {
+    display:flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.horizontal-container > div {
+    flex: 0 0 calc(33.33% - 10px); 
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box; 
+}
+
+
+
+option{
+    background-color: bisque;
+}
+body{
+    background-color: brown
+}
+form{
+    padding: 20px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+    color: #b3ff00;
+    text-decoration: coral;
+}
+body:hover{
+    background-color:chocolate ;
+    color: bisque;
+}

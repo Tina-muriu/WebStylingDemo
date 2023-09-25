@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>My First Page</title>
+    <link rel="stylesheet" href="tdemos.css">
+    <script src="scripts.jss.js"></script>
+</head>
+<body>
+    <button class="hover-button">I can Hover</button>
+<h2>Hello from skillsoft</h2>    
+<p>tell us about  <span>your </span>course</p>
+<p>Here are some of our courses </p>
+<div>
+    <script>
+        for(x=0;x<coursesArray.length;x++){
+            document.write(coursesArray[x]+", ");
+        }
+        document.write("<p></p>")
+    </script>
+
+</div>
+<form>
+    <div>
+        <label>choose your course:</label>
+    </div>
+    <div>
+        <select id="courses" multiple size="3">
+            <option value="" selected>--Choose--</option>
+            <option value="Angular">Angular</option>
+            <option value="React">React</option>
+            <option value="vuejs">Vue</option>
+            <option value="JavaScript">Javascript</option>
+            <option value="python">Python</option>
+            <option value="ruby">Ruby</option>
+            <option value="python"><script>CoursesArray[1]</script></option>
+
+        </select>
+    </div id="favorite">
+    <div class="horizontal-container">
+    <div>
+        <label class="standoutLabel">Favorite Instructor</label>
+        <input type="text" id="instructorName">
+    </div>
+    <div>
+        <label class="standoutLabel">Favorite Course</label>
+        <input type="text" id="courseName">
+    </div>
+    <div id="likes">
+        <input type="radio" name="likes">Yes
+        <input type="radio" name="like">No
+    </div>
+    </div>
+    <div>
+        <label>Upcoming Courses</label>
+    </div>
+    <div id="futureCourses">
+        
+    </div>
+    <div>
+        <button class="green_btn">Send Feedback</button>
+    </div>
+</form>
+</body>
+</html>
